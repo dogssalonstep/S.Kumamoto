@@ -7,8 +7,8 @@
   <meta name="theme-color" content="#29483e">
   <title>隈本聡子｜DOG SALON STEP</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./site-v5.css">
-  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./site-v6.css">
+  <script src="./script-v6.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">本文へ移動</a>
@@ -177,5 +177,19 @@
   </main>
 
   <footer class="site-footer"><p><span>SATOKO KUMAMOTO</span>DOG SALON STEP</p><small>© DOG SALON STEP</small></footer>
+
+  <button type="button" class="save-fab" id="saveFab" aria-haspopup="dialog" aria-controls="saveModal" aria-expanded="false">保存</button>
+  <div class="save-overlay" id="saveOverlay" aria-hidden="true">
+    <div class="save-modal" id="saveModal" role="dialog" aria-modal="true" aria-labelledby="saveModalTitle">
+      <button type="button" class="save-close" id="saveClose" aria-label="保存メニューを閉じる">×</button>
+      <p class="save-eyebrow">SAVE THIS PAGE</p>
+      <h2 id="saveModalTitle">このページを保存</h2>
+      <ol class="save-guide">
+        <li><strong>ホーム画面に追加</strong><span>iPhoneは共有ボタンから「ホーム画面に追加」、AndroidはChromeメニューから「ホーム画面に追加」を選びます。</span></li>
+        <li><strong>ブックマーク</strong><span>Windowsは「Ctrl ＋ D」、Macは「⌘ ＋ D」で保存できます。</span></li>
+        <li><strong>PDFとして保存</strong><span>ブラウザの印刷機能から「PDFに保存」を選択してください。</span></li>
+      </ol>
+    </div>
+  </div>
 </body>
 </html>
